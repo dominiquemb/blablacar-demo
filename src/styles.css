@@ -1,0 +1,223 @@
+html {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.title {
+    font-size: 36px !important;
+    font-weight: 500 !important;
+}
+
+body {
+    background-color: #0D1D37 !important;
+    color: #fff;
+    height: 100%;
+    font-family: 'Poppins', sans-serif !important;
+    overflow: visible !important;
+}
+
+.MuiTypography-root {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body .MuiOutlinedInput-notchedOutline {
+    border-color: #858D9E !important;
+}
+
+body .MuiOutlinedInput-input,
+body .MuiInputBase-input-MuiOutlinedInput-input,
+body .MuiInputBase-input.MuiOutlinedInput-input::placeholder,
+body .MuiInputBase-input.MuiOutlinedInput-input::-webkit-input-placeholder,
+body .MuiInputBase-input.MuiOutlinedInput-input::-moz-placeholder,
+body .MuiInputBase-input.MuiOutlinedInput-input:-ms-input-placeholder {
+    color: #A7ABBB !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body .MuiOutlinedInput-input.MuiInputBase-input  {
+    color: #A7ABBB !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body svg.MuiSelect-icon {
+    color: #A7ABBB !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body .MuiInputLabel-outlined.MuiFormLabel-root {
+    color: #A7ABBB !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body h4 {
+    color: #fff !important;
+    font-size: 24px !important;
+}
+
+body .form-title {
+    margin: 20px 0px;
+}
+
+body .MuiButton-root {
+    text-transform: none !important;
+}
+
+body .MuiButton-contained.MuiButton-containedPrimary {
+    background: #2F80ED !important;
+    color: #000 !important;
+    border-radius: 20px !important;
+    font-size: 12px !important;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    padding: 12px 80px 12px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.white-label {
+    color: #fff !important;
+}
+
+.terms-checkbox {
+    padding: 0px 10px !important;
+    align-self: start;
+}
+
+.terms-checkbox svg {
+    fill: #2F80ED !important;
+}
+
+a {
+   color: #2F80ED !important;
+   text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container .logo-text {
+    margin-left: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.welcome-to-finsiteful {
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+.subheading {
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    font-weight: normal;
+}
+
+.pill-box {
+    background: linear-gradient(234.03deg, #1F2539 2.43%, #131A2A 19.9%, #131A2A 82.31%, #1F2539 98.29%);
+    border-radius: 24px;   
+}
+
+.spinner,
+.spinner:before,
+.spinner:after {
+  border-radius: 50%;
+}
+
+.spinner {
+    color: #ffffff;
+    font-size: 22px;
+    text-indent: -99999px;
+    margin: 0px auto;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    box-shadow: inset 0 0 0 2px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  
+
+.spinner:before,
+.spinner:after {  
+    position: absolute;
+    content: '';
+}
+
+.spinner:before {
+
+    width: 10.4px;
+  
+    height: 20.4px;
+  
+    background: #2F80ED;
+  
+    border-radius: 20.4px 0 0 20.4px;
+  
+    top: -0.2px;
+  
+    left: -0.2px;
+  
+    -webkit-transform-origin: 10.4px 10.2px;
+  
+    transform-origin: 10.4px 10.2px;
+  
+    -webkit-animation: loading 2s infinite ease 1.5s;
+  
+    animation: loading 2s infinite ease 1.5s;
+  
+  }
+  
+  
+  .spinner:after {
+  
+    width: 10.4px;
+  
+    height: 10.2px;
+  
+    background: #2F80ED;
+  
+    border-radius: 0 10.2px 10.2px 0;
+  
+    top: -0.1px;
+  
+    left: 10.2px;
+  
+    -webkit-transform-origin: 0px 10.2px;
+  
+    transform-origin: 0px 10.2px;
+  
+    -webkit-animation: loading 2s infinite ease;
+  
+    animation: loading 2s infinite ease;
+  
+  }
+
+  @keyframes loading {
+
+    0% {
+  
+      -webkit-transform: rotate(0deg);
+  
+      transform: rotate(0deg);
+  
+    }
+  
+    100% {
+  
+      -webkit-transform: rotate(360deg);
+  
+      transform: rotate(360deg);
+  
+    }
+  
+  }
+
