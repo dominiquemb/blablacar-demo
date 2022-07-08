@@ -17,7 +17,7 @@
     "fetch-mock": "^9.11.0",
     "jest-enzyme": "^7.1.2",
     "jest-fetch-mock": "^3.0.3",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "nock": "^13.2.2",
     "puppeteer": "^13.1.2",
     "react": "^17.0.2",
